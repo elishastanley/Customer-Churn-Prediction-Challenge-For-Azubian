@@ -38,7 +38,7 @@ def show():
     with col2:
         st.markdown("#### 🔗 Quick Links")
         st.write("""
-            - [GitHub Repository](https://github.com/elishastanley/Churn-Prediction-Enhancing-Retention-with-Machine-Learning)
+            - [GitHub Repository](https://github.com/elishastanley/Customer-Churn-Prediction-Challenge-For-Azubian/tree/main/Model)
         """)
 
 if __name__ == "__main__":
