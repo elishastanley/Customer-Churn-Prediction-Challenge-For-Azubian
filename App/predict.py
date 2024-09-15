@@ -5,7 +5,7 @@ import base64
 from database import save_prediction
 
 # Loading models and preprocessing pipeline
-model_path = '../Model/Exports/churn_model_components.pkl'
+model_path = 'Model/churn_model_components.pkl'
 loaded_components = joblib.load(model_path)
 preprocessor = loaded_components['preprocessing']['preprocessor']
 tuned_models = loaded_components['tuned_models']

@@ -29,4 +29,4 @@ RUN pip install --upgrade pip \
 EXPOSE 5000
 
 # Command to run the application
-CMD ["streamlit", "run", "App/app.py", "--server.port=5000", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.port=5000", "--server.address=0.0.0.0"]
