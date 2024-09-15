@@ -68,7 +68,7 @@ def main():
         col1, col2, col3 = container.columns([1, 5, 1])
 
         with col2:
-            st.image("/mount/src/customer-churn-prediction-challenge-for-azubian/App/images/churn05.png", use_column_width="always")
+            st.image("images/churn05.png", use_column_width="always")
 
 if __name__ == "__main__":
     main()
