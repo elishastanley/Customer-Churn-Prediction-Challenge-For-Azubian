@@ -33,7 +33,7 @@ def show():
                 The application allows you to select between multiple predictive models, providing flexibility and accuracy in forecasts.
             """)
         
-        st.image("images/churn05.png", use_column_width="always")
+        st.image("/mount/src/customer-churn-prediction-challenge-for-azubian/App/images/churn05.png", use_column_width="always")
 
     with col2:
         st.markdown("#### 🔗 Quick Links")
